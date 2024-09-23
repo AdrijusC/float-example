@@ -1,0 +1,33 @@
+img {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+}
+header h1{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.middle{ 
+    text-align: center;
+    font-size: 30px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+}
+section article {
+    display: inline-block;
+    margin: 100px;
+}
+article h3{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
+    color: gray;
+}

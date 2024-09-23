@@ -1,0 +1,64 @@
+/*base*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+h1,h2,h3 {
+    text-align: center;
+}
+/*layout*/
+
+/*Header*/
+header{
+    height: 120px;
+    background-color: #aa88ee;
+    line-height: 120px;
+}
+header h1{
+    color: wheat;
+    text-transform: uppercase;
+}
+/*Main navigation*/
+nav{
+    background-color: #aa00dd;
+}
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+/*Main content*/
+main{
+    background-color: #ee8800;
+    min-height: 500px;
+
+}
+main article:nth-child(even){
+    float: right;
+    margin: 10px;
+}
+main article:nth-child(odd){
+    float: left;
+    margin: 10px;
+    
+}
+main .content{
+    width: 60%;
+    float: left;
+    padding: 50px;
+}
+main article{
+    background-color: #280147;
+    display: inline-block;
+    padding: 10px;
+}
+/*Aside*/
+aside{
+    background-color: #1414ac;
+    width: 40%;
+    float: right;
+}
