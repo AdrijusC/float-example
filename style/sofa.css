@@ -1,0 +1,68 @@
+/*base*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Header*/
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px; /* Set a max-width to prevent the layout from stretching too much */
+    margin-left: 400px;
+    margin-top: 90px;
+}
+
+.year {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 20px; /* Space between the year and the logo */
+    color: gray;
+    opacity: 0.5;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+/*Main*/
+div h1{
+    text-align: center;
+    max-width: 80%;
+    margin-left: 140px;
+    padding: 20px;
+    font-size: 80px;
+    margin-top: 10px;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 0;
+}
+.middle{
+    text-align: center;
+    margin: 25px 35px;
+    font-size: 30px;
+    padding: 20px 50px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+main section div{
+    display: inline-block;
+    padding: 50px 10px 50px 140px;
+}
+section h3{
+    font-weight:bold;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+article p{
+    font-size: 20px;
+    width: 290px;
+    line-height: 1.5;
+}
+footer{
+    text-align: center;
+    padding-top: 120px;
+    color: gray;
+    opacity: 0.5;
+}
